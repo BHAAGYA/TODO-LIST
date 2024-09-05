@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="dropcolor">
+            <div class="welcome">
+                <div class="content">
+                  <h1>Hello Bhagyashree</h1>
+                  <p>Today you have <span id="total-tasks">0</span> tasks</p>
+                </div>
+                <div class="img">
+                  <div class="backdrop"></div>
+                 <img src="./Borcelle__1_-removebg-preview.png" />
+                </div>
+              </div>
+            </div>
+            <div class="container">
+                <div class="status">
+                    <div class="details">
+                        <h1>My Todo List</h1>
+                        <p>Keep It Up!!!</p>
+                        <div id="progress-line">
+                            <div id="long-bar"></div>
+                        </div>
+                    </div>
+                    <div class="status-number">
+                        <div id="numbers">0 / 0</div>
+                    </div>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Write The Task" id="taskInput">
+                    <button type="submit" id="newTask">+</button>
+                </form>
+                <ul class="task-list">
+
+                </ul>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js">
+
+    </script>
+</body>
+</html>
